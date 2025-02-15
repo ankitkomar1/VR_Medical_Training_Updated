@@ -1,0 +1,15 @@
+Dataset Description:
+This dataset is used for training and evaluating VR-based medical simulations.
+It contains records of trainee performances, procedural accuracy, time metrics, and feedback logs.
+
+Columns:
+- Trainee_ID: Unique identifier for each trainee.
+- Session_ID: Unique identifier for each training session.
+- Completion_Time: Time taken to complete the procedure.
+- Accuracy_Score: Score based on the correctness of actions.
+- Feedback: AI-generated feedback for performance improvement.
+
+Data Format: CSV file
+
+Usage:
+Ensure the dataset is placed in the project root directory as 'dataset.csv' before running the system.
